@@ -6,15 +6,15 @@ function Nav() {
         <div className="nav-contact">
           <div className="nav-email">
             <img className="mail-icon" src="assets/mail-icon.svg" alt="mail" />
-            <p className="pl-2">Email: valgeetransportservices@gmail.com</p>
+            <p>Email: valgeetransportservices@gmail.com</p>
           </div>
-          <div className="nav-phone px-5">
+          <div className="nav-phone">
             <img
               className="phone-icon"
               src="assets/phone-icon.svg"
               alt="phone"
             />
-            <p className="pl-2">Call Us: +234 816 739 8567</p>
+            <p>Call Us: +234 816 739 8567</p>
           </div>
         </div>
         <div className="nav-links">
@@ -25,7 +25,7 @@ function Nav() {
             <div className="bookings">
               <a href="#" className="link dropdown-link">
                 Bookings
-                <img className="arrow-down-icon" src="assets/arrow-down-icon.svg" alt="" />
+                <img className="arrow-down-icon" src="assets/arrow-down-icon.svg" alt="arrow-down" />
               </a>
               <div className="dropdown-content">
                 <a href="#">Book A Trip</a>

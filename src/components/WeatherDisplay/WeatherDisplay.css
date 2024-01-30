@@ -1,0 +1,16 @@
+.weather-container {
+    background-color: rgb(224, 224, 224);
+    padding: 2rem 6rem 1rem 6rem;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.title span {
+    color: white;
+    padding-left: 0.4rem;
+}
