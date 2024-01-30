@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import Nav from './components/Nav/Nav.jsx'
+import LoginPage from './pages/LoginPage/LoginPage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Nav/>
+    <LoginPage/>
     <App />
   </React.StrictMode>,
 )
